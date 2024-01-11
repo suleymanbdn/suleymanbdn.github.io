@@ -1,0 +1,143 @@
+@import url('https://fonts.cdnfonts.com/css/adlam-display');
+@import url('https://fonts.cdnfonts.com/css/expletus-sans-2');
+
+
+body{
+display: flex;
+ flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+font-family: monospace;
+text-align: center;
+background-color: grey;
+}
+main{
+  flex: 1;
+}
+
+        #ust-menu {
+            background-color: #333;
+            overflow: hidden;
+            border-radius:40px        }
+
+        #ust-menu a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            font-size: 15px;
+            padding: 25px;
+            width: 45px;
+            margin: auto;
+            text-decoration: none;
+         	font-family: 'ADLaM Display', sans-serif;
+
+        }
+        #ust-menu h1{
+        	font-family: monospace;
+        	position: absolute;
+        	right: 30px;
+        	top: -3px;
+        	color: #f2f2f2;
+        	font-family: 'Expletus Sans', sans-serif;
+
+
+        }
+        #ust-menu a:hover {
+            color: lightcyan;
+        }
+      	.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Footer Ayarları */
+footer {
+  background-color: lightblue;
+  opacity:0.8;
+  color: #fff;
+  padding: 10px 0;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: auto;
+
+}
+
+footer h4 {
+  color: #ffd700; /* Altın rengi */
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Bağlantı Ayarları */
+footer a {
+  color: #ffd700;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* İletişim Bilgileri Ayarları */
+footer .col-md-4 {
+  margin-bottom: 20px;
+}
+
+/* Alt Bilgi Ayarları */
+footer hr {
+  border-color: #555;
+}
+
+footer ul.list-inline li {
+  margin-right: 10px;
+}
+
+/* Mobil Uyumlu Tasarım Ayarları */
+@media (max-width: 767px) {
+  footer .col-md-4 {
+    text-align: center;
+
+    margin-bottom: 20px;
+  }
+  
+  footer ul.list-inline {
+    text-align: center;
+  }
+}
+
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 30px;
+      background-color: #fff;
+      opacity: 0.8;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
